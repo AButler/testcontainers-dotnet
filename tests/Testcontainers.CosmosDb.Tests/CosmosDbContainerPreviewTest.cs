@@ -32,6 +32,6 @@ public sealed class CosmosDbContainerPreviewTest : IAsyncLifetime
             .ConfigureAwait(true);
 
         // Then
-        Assert.Equal("localhost", accountProperties.Id);
+        Assert.Equal("cosmosdev", accountProperties.Id);
     }
 }
